@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-project-poetry"
+description = ""
+version = "0.1.0"
+authors = ["Takashi Yamashina <takashi.yamashina@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.6.2"
+black = "^19.10b0"
+flake8 = "^3.8.3"
+flake8-docstrings = "^1.5.0"
+hacking = "^3.1.0"
+mypy = "^0.782"
+pytest = "^5.4.3"
+pytest-cov = "^2.10.0"
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
