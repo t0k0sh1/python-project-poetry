@@ -16,6 +16,7 @@
 
 ```
 $ poetry install
+```
 
 以下のパッケージがインストールされます。
 
@@ -26,4 +27,3 @@ $ poetry install
 - bandit
 - pytest
 - pytest-cov
-```
